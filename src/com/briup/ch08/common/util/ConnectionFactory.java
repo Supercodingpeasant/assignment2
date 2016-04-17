@@ -15,9 +15,9 @@ public class ConnectionFactory {
 	static {
 		driver = "com.mysql.jdbc.Driver";
 		//jdbc:mysql://ip:port/dbName
-		url="jdbc:mysql://127.0.0.1:3306/wy";
+		url="jdbc:mysql://127.0.0.1:3306/wan";
 		user = "root";
-		password = "root";
+		password = "123456";
 		
 	}
 	/**

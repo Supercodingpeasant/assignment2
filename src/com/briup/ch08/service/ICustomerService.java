@@ -17,4 +17,5 @@ public interface ICustomerService {
 	 * @param customer
 	 */
 	public void register(Customer customer);
+	public void delete(long id);
 }

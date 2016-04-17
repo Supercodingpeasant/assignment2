@@ -51,4 +51,7 @@ public class CustomerServiceImpl implements ICustomerService {
 	public void register(Customer customer) {
 		customerDao.save(customer);
 	}
+	public void delete(long id){
+		customerDao.deleteById(id);
+	}
 }
