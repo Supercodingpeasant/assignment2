@@ -11,7 +11,7 @@
 		<h1>删除顾客信息</h1>
 		<hr>
 		<form action="DeleteServlet" method="post">
-			id号：<input type="text" id="id">
+			id号：<input type="text" name="id">
 			<input type="submit" value="提交">
 		</form>
 	</center>
